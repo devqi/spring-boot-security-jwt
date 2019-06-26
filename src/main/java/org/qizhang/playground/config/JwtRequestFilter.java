@@ -21,7 +21,7 @@ import org.springframework.web.filter.OncePerRequestFilter;
 
 /**
  * The JwtRequestFilter extends the Spring Web Filter OncePerRequestFilter class. 
- * For any incoming request this Filter class gets executed. 
+ * For any incoming request, this Filter class gets executed. 
  * It checks if the request has a valid JWT token. 
  * If it has a valid JWT Token then it sets the Authentication in the context, 
  * to specify that the current user is authenticated.
